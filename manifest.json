@@ -1,0 +1,13 @@
+{
+  "name": "IMDb Lookup",
+  "description": "Displays IMDb ratings and all the information about the movie on a flash card on right clicking and selecting it.",
+  "version": "1.0",
+  "permissions": ["contextMenus", "tabs"],
+  "icons": {"128": "icon.png"},
+  "browser_action": {"default_icon": "icon.png"},
+  "background": {"scripts": ["javascript.js"]},
+  "permissions": [
+    "contextMenus"
+  ],
+  "manifest_version": 2
+}
